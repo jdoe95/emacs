@@ -29,6 +29,7 @@
   '(setq periph-name (skeleton-read "Peripheral name: " periph-name))
   '(setq reg-name   (skeleton-read "Register name: " reg-name))
   '(setq reg-type   (skeleton-read "Register type: " reg-type))
+  '(setq field-name (skeleton-read "Field name: " field-name))
   '(setq field-pos  (skeleton-read "Field pos: " field-pos))
   ("Insert value"
    nil
